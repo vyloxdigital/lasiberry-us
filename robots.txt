@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Disallow: /images/
+Crawl-delay: 1
+
+# AI Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://lasiberry-us.vercel.app/sitemap.xml
